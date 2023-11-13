@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34031.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_Qaiyum", "SMS_Qaiyum\PM_Qaiyum.csproj", "{7EF669DA-7A0C-47F7-AD04-F588E4BACBAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF669DA-7A0C-47F7-AD04-F588E4BACBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF669DA-7A0C-47F7-AD04-F588E4BACBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF669DA-7A0C-47F7-AD04-F588E4BACBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF669DA-7A0C-47F7-AD04-F588E4BACBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {011AF525-649E-4DA3-8CE8-D0FD011F5E46}
+	EndGlobalSection
+EndGlobal
