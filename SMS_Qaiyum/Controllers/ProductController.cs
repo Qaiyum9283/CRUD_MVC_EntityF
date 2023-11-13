@@ -68,5 +68,21 @@ namespace PM_Qaiyum.Controllers
             return GetProducts();
         }
 
+        [HttpPut]
+        public ActionResult ReplaceProduct(Product initial_product, Product new_product )
+        {
+            Product productToUpdate = db.Products.FirstOrDefault(p => p.ProductId == initial_product.ProductId);
+
+
+            productToUpdate.Name = initial_product.Name;
+            productToUpdate.Description = initial_product.Description;
+            productToUpdate.Price = initial_product.Price;
+            productToUpdate.QuantityInStock = initial_product.QuantityInStock;
+
+            db.SaveChanges();
+
+            return GetProducts();
+        }
+
     }
 }
